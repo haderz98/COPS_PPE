@@ -12,14 +12,16 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/COPS_PPE_Build_V0.0.7.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body style="background-color: #257874;">
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">PPE Customiser</div>
+  <body>
+    <div class="container">
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">PPE Customiser</div>
+        </div>
       </div>
-    </div>
+	</div>
   </body>
 </html>
