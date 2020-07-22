@@ -31,7 +31,7 @@
       }
       .logo {
           display: block;
-          max-width: 50vw;
+          max-width: 40vw;
           max-height: 70vh;
       }
 
@@ -101,7 +101,7 @@
 
   <script src="Build/UnityLoader.js"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/COPS_PPE_Build_V0.2.2.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/COPS_PPE_Build_V0.2.3.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
